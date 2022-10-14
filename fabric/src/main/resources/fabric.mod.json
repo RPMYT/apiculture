@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "apiculture",
+  "version": "${version}",
+  "name": "Apiculture",
+  "description": "A Minecraft mod adding a multitude of unique bee varieties.",
+  "authors": [
+    "Arcuvium"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.iridevescence.apiculture.fabric.ApicultureFabric"
+    ]
+  },
+  "mixins": [
+    "apiculture.mixins.json",
+    "apiculture-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": ">=1.19.2"
+  }
+}
